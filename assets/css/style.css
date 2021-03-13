@@ -1072,3 +1072,50 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+codersrank-summary {
+  --bg-color: transparent;
+  --badge-bg-color: #fff;
+  --badge-text-color: rgb(3, 3, 3);
+  --badges-padding: 0px;
+  --badge-padding: 8px;
+  --badge-margin: 16px;
+  --badge-border-radius: 8px;
+  --badge-rank-font-size: 16px;
+  --badge-technology-font-size: 18px;
+  --badge-location-font-size: 16px;
+  --badge-icon-size: 32px;
+  --badge-border: 1px solid rgba(19, 14, 14, 0.1);
+  --badge-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.count-box {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+codersrank-activity {
+  padding: 8px;
+  border-radius: 8px;
+  background: #fdfdfd;
+  --bg-color-0: rgb(235, 233, 233);
+  /* --bg-color-1: rgba(var(--theme-color-rgb), 2); */
+  /* --bg-color-2: rgba(var(--theme-color-rgb), 5); */
+  /* --bg-color-3: rgba(var(--theme-color-rgb), 75); */
+  /* --bg-color-4: rgba(var(--theme-color-rgb), 1); */
+  --label-text-color: rgba(255, 255, 255, 0.54);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 1.5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+codersrank-skills-chart {
+  margin-top: 18px;
+
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 1.5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
